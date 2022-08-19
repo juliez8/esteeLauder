@@ -16,6 +16,12 @@
 		E3799D7A28AF371000155C00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3799D7828AF371000155C00 /* LaunchScreen.storyboard */; };
 		E3799D8528AF371000155C00 /* esteeLauderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3799D8428AF371000155C00 /* esteeLauderTests.swift */; };
 		E3799D9028AF371100155C00 /* esteeLauderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3799D8F28AF371100155C00 /* esteeLauderUITests.swift */; };
+		E3799DA128AF417200155C00 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3799DA028AF417200155C00 /* SecondViewController.swift */; };
+		E3799DA628AF494600155C00 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3799DA528AF494600155C00 /* ThirdViewController.swift */; };
+		E3799DAB28AF4A9500155C00 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3799DAA28AF4A9500155C00 /* FourthViewController.swift */; };
+		E3799DB028AF4E4E00155C00 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3799DAF28AF4E4E00155C00 /* FifthViewController.swift */; };
+		E3799DB528AF621600155C00 /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3799DB428AF621600155C00 /* SixthViewController.swift */; };
+		E3799DBA28AF697A00155C00 /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3799DB928AF697A00155C00 /* SeventhViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		E3799D8B28AF371100155C00 /* esteeLauderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = esteeLauderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3799D8F28AF371100155C00 /* esteeLauderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esteeLauderUITests.swift; sourceTree = "<group>"; };
 		E3799D9128AF371100155C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3799DA028AF417200155C00 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E3799DA528AF494600155C00 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		E3799DAA28AF4A9500155C00 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		E3799DAF28AF4E4E00155C00 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		E3799DB428AF621600155C00 /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
+		E3799DB928AF697A00155C00 /* SeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,12 @@
 		E3799D5E28AF36EF00155C00 = {
 			isa = PBXGroup;
 			children = (
+				E3799DB928AF697A00155C00 /* SeventhViewController.swift */,
+				E3799DB428AF621600155C00 /* SixthViewController.swift */,
+				E3799DAF28AF4E4E00155C00 /* FifthViewController.swift */,
+				E3799DAA28AF4A9500155C00 /* FourthViewController.swift */,
+				E3799DA528AF494600155C00 /* ThirdViewController.swift */,
+				E3799DA028AF417200155C00 /* SecondViewController.swift */,
 				E3799D6928AF36EF00155C00 /* esteeLauder */,
 				E3799D8328AF371000155C00 /* esteeLauderTests */,
 				E3799D8E28AF371100155C00 /* esteeLauderUITests */,
@@ -262,8 +280,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3799D6F28AF36EF00155C00 /* ViewController.swift in Sources */,
+				E3799DB528AF621600155C00 /* SixthViewController.swift in Sources */,
 				E3799D6B28AF36EF00155C00 /* AppDelegate.swift in Sources */,
 				E3799D6D28AF36EF00155C00 /* SceneDelegate.swift in Sources */,
+				E3799DBA28AF697A00155C00 /* SeventhViewController.swift in Sources */,
+				E3799DAB28AF4A9500155C00 /* FourthViewController.swift in Sources */,
+				E3799DB028AF4E4E00155C00 /* FifthViewController.swift in Sources */,
+				E3799DA128AF417200155C00 /* SecondViewController.swift in Sources */,
+				E3799DA628AF494600155C00 /* ThirdViewController.swift in Sources */,
 				E3799D7528AF36F000155C00 /* esteeLauder.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
